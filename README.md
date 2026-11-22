@@ -1,17 +1,34 @@
 # PerHour
 
 A World of Warcraft Forever addon that shows your gold per hour and experience
-per hour in a small window. Each counter has its own Pause and Reset.
+per hour in a small window, and the time to your next level. Each counter has
+its own Pause and Reset.
 
-Only time spent logged in and unpaused counts, and the totals survive `/reload`
-and logout, so the rate holds across sessions until you reset it. Gold is the
-net change in your money: loot, quest rewards and vendor sales, minus repairs
-and purchases. Drag the window to move it; hover a counter for its totals.
+Only time spent logged in, unpaused and not AFK counts, and the totals survive
+`/reload` and logout, so the rate holds across sessions until you reset it.
+
+Gold is the money you make in the world: loot, quest rewards and vendor sales,
+minus repairs and purchases. Money that moves while the mailbox, trade window,
+auction house or guild bank is open is a transfer, not farming, and is not
+counted. Time to level is the XP you still need at the session's rate. The
+experience counter hides itself at max level.
+
+Drag the window to move it; hover a counter for its totals. Closing the window
+keeps it counting. If another addon has loaded LibDataBroker, the rates also
+show on broker bars such as Titan Panel, and on a minimap button when LibDBIcon
+is loaded too.
 
 | Command | Does |
 |---|---|
-| `/perhour` or `/ph` | Show or hide the window |
-| `/perhour reset` | Reset both counters |
+| `/goldxp` | Show or hide the window |
+| `/goldxp gold`, `/goldxp xp` | Show or hide one counter |
+| `/goldxp scale 0.8` | Resize the window (0.5 to 2) |
+| `/goldxp minimap` | Show or hide the minimap button |
+| `/goldxp reset` | Reset both counters |
+
+`/perhour` and `/ph` work too, unless another addon already uses them: other
+per-hour addons do, and whichever loads last would take them over. The addon
+says so in chat when it leaves one alone.
 
 ## Install
 

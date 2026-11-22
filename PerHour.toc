@@ -1,6 +1,6 @@
 ## Interface: 16001
 ## Title: PerHour
-## Notes: Gold per hour and experience per hour, each with its own Pause and Reset.
+## Notes: Gold per hour, experience per hour and time to level, each with its own Pause and Reset. Type /goldxp.
 ## Author: Michael
 ## Version: @project-version@
 ## X-Curse-Project-ID: 1824754
