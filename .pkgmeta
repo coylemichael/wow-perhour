@@ -1,0 +1,4 @@
+package-as: PerHour
+
+ignore:
+    - README.md

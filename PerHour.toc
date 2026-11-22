@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: PerHour
+## Notes: Gold per hour and experience per hour, each with its own Pause and Reset.
+## Author: Michael
+## Version: @project-version@
+## IconTexture: Interface\Icons\INV_Misc_Coin_01
+## SavedVariablesPerCharacter: PerHourDB
+
+PerHour.lua
