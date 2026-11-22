@@ -3,6 +3,7 @@
 ## Notes: Gold per hour and experience per hour, each with its own Pause and Reset.
 ## Author: Michael
 ## Version: @project-version@
+## X-Curse-Project-ID: 1824754
 ## IconTexture: Interface\Icons\INV_Misc_Coin_01
 ## SavedVariablesPerCharacter: PerHourDB
 
